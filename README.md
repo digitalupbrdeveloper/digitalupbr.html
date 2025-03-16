@@ -73,7 +73,7 @@ cd meu-site
 
 > Acesse a página inicial (index.html) para ver o layout do site. Utilize a página de contato para enviar uma mensagem, e os links de redes sociais para redirecionar para as páginas correspondentes.
 
-https://agenciadigitalupbr.netlify.app/
+https://digitalupbr.netlify.app/
 
 ---
 

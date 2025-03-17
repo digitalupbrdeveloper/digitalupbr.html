@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Agencia Digital, CSS, HTML, Trafego Pago, Google Ads, Metaverso, Anúncio">
+    <meta name="keywords" content="Agencia Digital, CSS, HTML, Trafego Pago, Google Ads, Metaverso, Anúncio, consultoria">
     <title>Agência Digital Up Br</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="responsivo.css">
@@ -13,17 +13,18 @@
             position: absolute;
             top: 10px;
             left: 10px;
-            max-width: 150px; /* Ajuste o tamanho conforme necessário */
+            max-width: 150px;
         }
 
         /* Ajuste do menu */
         .navbar {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-            position: relative;
-        }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #413f42; /* Altere a cor de fundo conforme necessário */
+}
+
 
         .menu {
             display: flex;
@@ -32,16 +33,32 @@
         }
 
         .menu ul {
-            list-style: none;
-            display: flex;
-            gap: 30px; /* Aumentei o espaçamento entre os itens */
-            padding: 0;
-            margin: 0;
-        }
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
 
         .menu ul li {
             display: inline;
         }
+
+
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
 
         .menu ul li a {
             text-decoration: none;
@@ -52,7 +69,7 @@
 
         /* Botão de contato */
         #botao {
-            font-size: 18px;
+            font-size: 25 px;
             font-weight: bold;
             color: white;
             background-color: #1aff00;
@@ -67,55 +84,124 @@
             text-align: center;
             padding: 80px 20px;
         }
+
+        /* Responsividade */
+        @media screen and (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .logo {
+                position: static;
+                max-width: 120px;
+                margin-bottom: 10px;
+            }
+
+            .menu {
+                width: 100%;
+            }
+
+            .menu ul {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .menu ul li {
+                display: block;
+            }
+
+            .headline h2 {
+                font-size: 50px;
+            }
+
+            .hero h1 {
+                font-size: 22px;
+            }
+
+            .hero h3 {
+                font-size: 16px;
+            }
+
+            .services h1 {
+                font-size: 24px;
+            }
+
+            .services ul {
+                padding: 0 15px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .headline h2 {
+                font-size:60px;
+            }
+
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            .hero h3 {
+                font-size: 30px;
+            }
+
+            #botao {
+                font-size: 16px;
+                padding: 8px 15px;
+            }
+        }
     </style>
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <!-- Logo no canto superior esquerdo -->
             <img class="logo" src="assets/digitalupbr.jpg" alt="Logo Agência Digital Up">
             
             <div class="menu">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="https://github.com/rsilvadevelloper?tab=repositories">Portfólio</a></li>
+                    <li><a href="https://wa.me/21981899447">Contato</a></li>
                     <li><a id="botao" href="https://linktr.ee/agenciadigitalupbr">Fale Conosco</a></li>
                 </ul>
             </div>
         </nav>
+    </header>
+</body>
+
 
         <div class="headline">
-            <h2>Seja Bem Vindo (a)</h2>
-            <h2 style="font-size: 80px;">Agência Digital Up Br</h2>
+   <br> <br>  <h1>Seja Bem Vindo (a)</p></h1>
+            <h1 style="font-size: 70px;"> <p>Agência</p> Digital Up Br</h1>
         </div>
     </header>
-
     <main>
         <section class="hero">
-            <h1>Transforme seu negócio com a Agência Digital Up Br!</h1>
-            <p>Oferecemos soluções digitais inovadoras para levar sua empresa ao próximo nível. Estamos prontos para criar estratégias personalizadas que trazem resultados para sua empresa.</p>
+            <h1>Transforme seu negócio com a Agência Digital Up Br!</h1> <br>
+            <h3>
+                <p>Oferecemos soluções digitais inovadoras para levar sua empresa ao próximo nível. Estamos prontos para criar estratégias personalizadas que trazem resultados para sua empresa.</p>
+            </h3>
             <a href="https://linktr.ee/agenciadigitalupbr" style="font-size: 18px; font-weight: bold; color: white; background-color: #1aff00; padding: 15px 30px; text-decoration: none; border-radius: 5px; margin-top: 20px; display: inline-block;">Solicite uma consultoria agora mesmo!</a>
         </section>
 
         <section class="about">
-            <h2>Sobre Nós</h2>
-            <p>Somos uma agência especializada em desenvolvimento de aplicativos e sites com tecnologia de ponta.</p>
+            <h1>Sobre Nós:</h1> <br>
+            <h3>Somos uma agência especializada developer front end e back end com foco em desenvolvimento de aplicativos android e ios e criação de sites responsivos usando o que é de mais tecnológico no uso da programação developer.</h3>
         </section>
-
         <section class="services">
-            <h1>Serviços</h1>
+            <h1>Serviços:</h1> <br>
             <ul>
-                <li>Desenvolvimento de aplicações web completas (front-end e back-end)</li>
-                <li>Criação de APIs RESTful e GraphQL</li>
-                <li>Integração de sistemas e banco de dados (SQL e NoSQL)</li>
-                <li>Desenvolvimento de sites responsivos</li>
-                <li>Desenvolvimento de aplicativos móveis</li>
-                <li>Implementação de sistemas de autenticação e autorização de usuários</li>
-                <li>Automação de testes e deploy contínuo (CI/CD)</li>
-                <li>Manutenção e atualização de sistemas existentes</li>
-                <li>Consultoria e suporte técnico para soluções personalizadas para empresas</li>
+                <h3>
+                    <li>Desenvolvimento de aplicações web completas (front-end e back-end)</li>
+                    <li>Criação de APIs RESTful e GraphQL</li>
+                    <li>Integração de sistemas e banco de dados (SQL e NoSQL)</li>
+                    <li>Desenvolvimento de sites responsivos</li>
+                    <li>Desenvolvimento de aplicativos móveis</li>
+                    <li>Implementação de sistemas de autenticação e autorização de usuários</li>
+                    <li>Automação de testes e deploy contínuo (CI/CD)</li>
+                    <li>Manutenção e atualização de sistemas existentes</li>
+                    <li>Consultoria e suporte técnico personalizados para empresas locais</li
+                </h3>
             </ul>
         </section>
     </main>
@@ -124,11 +210,9 @@
         <p>&copy; 2025 Digital Up Br. Todos os direitos reservados.</p>
     </footer>
 
-    <a href="https://wa.me/21981899447" target="_blank" style="position: fixed; bottom: 20px; right: 20px; background-color: #25D366; color: white; padding: 10px 15px; border-radius: 50px; text-decoration: none; font-weight: bold; display: flex; align-items: center; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);">
+    <a href="https://wa.me/21981899447" target="_blank" style="position: fixed; bottom:35px; right: 20px; background-color: #25D366; color: white; padding: 10px 15px; border-radius: 50px; text-decoration: none; font-weight: bold; display: flex; align-items: center; box-shadow: 2px 2px 10px rgba(42, 3, 81, 0.2);">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 30px; margin-right: 10px;">
         Contato Digital Up Br
     </a>
-    
-
 </body>
 </html>

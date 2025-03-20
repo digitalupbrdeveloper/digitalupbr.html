@@ -1,0 +1,187 @@
+/* Reset básico para remover margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar{
+
+display: flex;
+flex-flow: row wrap;
+height: 100px;
+background: rgb(101, 12, 184);
+justify-content: center;
+align-items: center;
+position: fixed;
+width: 100%;
+}
+
+.Logo {
+
+    flex: 20%
+    
+}
+
+.Logo {
+
+    text-align: center
+    
+}
+
+
+.header{
+
+display: flex;
+flex-flow: row wrap;
+background: gray;
+justify-content: center;
+align-items: center;
+padding-top:100px;
+
+}
+
+
+.img-headlLine{
+margin-right:10%;
+flex: 40%;
+border: 1px; solid deeppink;
+text-align: center;
+
+}
+
+
+
+.logo h1{
+font-family: 'lobster', cursive;
+color: rgb(101, 12, 184);
+font-size:34px
+
+}
+
+
+.Logo {
+    border: 1px solid red
+    
+}
+
+.Logo {
+    text-align: center;
+    right:50px;
+    
+}
+.menu{
+    flex: 100%;
+    border:1px solid
+
+    
+
+}
+.menu{
+    text-align: 20px
+    
+
+}
+
+.menu a {
+
+    color: (01, 12, 184)
+}
+
+.menu a {
+
+    text-align: 20px;
+    padding: 20px; 16px; }
+
+
+.menu a hover {
+
+    color: #ff2978
+}
+
+.menu a hover {
+
+    border-top: 4px; solid #180F4A
+}
+
+#botao {
+background: #180F4A;
+padding: 10px 25px
+}
+
+
+#botao {
+
+    color: white;
+    border-radius: 5px;
+    color: whit
+
+}
+
+#botao {
+
+border-radius: 5px;
+scroll-margin-right: 15%;
+
+}
+/* Estilização do corpo */
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+/* Seção Hero */
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgb( 101, 12, 184)
+    color: white;
+}
+
+/* Seções */
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.agencia{
+    font-family: 'lobster';
+    color: white;
+    font-size:34px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+    margin-top: 100px;
+    height:60pX
+}
+
+footer {
+    border-top: 5px solid rgb(157, 60, 209)
+}
+
+.logo-rodape{
+    padding:100px
+}
+
+.whats{
+
+    position: fixed;
+    bottom: 5px;
+    right:10px;
+}

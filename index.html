@@ -82,9 +82,12 @@
         /* Ajuste da seção principal */
         .headline {
             text-align: center;
-            padding: 80px 20px;
+            padding: 60px 20px;
         }
 
+.hero {
+    margin-top: -80px; /* Aproxima a hero da headline */
+}
         /* Responsividade */
         @media screen and (max-width: 768px) {
             .navbar {
@@ -176,43 +179,113 @@
         </div>
     </header>
     <main>
-        <section class="hero">
-            <h1>Transforme seu negócio com a Agência Digital Up Br!</h1> <br>
+        <section class="hero" style="margin-top: -30px;">
+            <h1>Impulsione seu negócio com a Agência Digital Up Br!</h1> <br>
             <h3>
-                <p>Oferecemos soluções digitais inovadoras para levar sua empresa ao próximo nível. Estamos prontos para criar estratégias personalizadas que trazem resultados para sua empresa.</p>
+                <p>Especialistas em soluções digitais inovadoras, ajudamos sua empresa a crescer com estratégias personalizadas que geram resultados reais.</p>
             </h3>
-            <a href="https://linktr.ee/agenciadigitalupbr" style="font-size: 18px; font-weight: bold; color: white; background-color: #1aff00; padding: 15px 30px; text-decoration: none; border-radius: 5px; margin-top: 20px; display: inline-block;">Solicite uma consultoria agora mesmo!</a>
-        </section>
-
-        <section class="about">
-            <h1>Sobre Nós:</h1> <br>
-            <h3>Somos uma agência especializada developer front end e back end com foco em desenvolvimento de aplicativos android e ios e criação de sites responsivos usando o que é de mais tecnológico no uso da programação developer.</h3>
-        </section>
-        <section class="services">
-            <h1>Serviços:</h1> <br>
-            <ul>
-                <h3>
-                    <li>Desenvolvimento de aplicações web completas (front-end e back-end)</li>
-                    <li>Criação de APIs RESTful e GraphQL</li>
-                    <li>Integração de sistemas e banco de dados (SQL e NoSQL)</li>
-                    <li>Desenvolvimento de sites responsivos</li>
-                    <li>Desenvolvimento de aplicativos móveis</li>
-                    <li>Implementação de sistemas de autenticação e autorização de usuários</li>
-                    <li>Automação de testes e deploy contínuo (CI/CD)</li>
-                    <li>Manutenção e atualização de sistemas existentes</li>
-                    <li>Consultoria e suporte técnico personalizados para empresas locais</li
-                </h3>
-            </ul>
         </section>
     </main>
-
-    <footer>
-        <p>&copy; 2025 Digital Up Br. Todos os direitos reservados.</p>
-    </footer>
-
-    <a href="https://wa.me/21981899447" target="_blank" style="position: fixed; bottom:35px; right: 20px; background-color: #25D366; color: white; padding: 10px 15px; border-radius: 50px; text-decoration: none; font-weight: bold; display: flex; align-items: center; box-shadow: 2px 2px 10px rgba(42, 3, 81, 0.2);">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 30px; margin-right: 10px;">
-        Contato Digital Up Br
-    </a>
-</body>
-</html>
+            <a href="https://linktr.ee/agenciadigitalupbr" style="font-size: 27px; font-weight: bold; color: white; background-color: #1aff00; padding: 15px 30px; text-decoration: none; border-radius: 5px; margin-top: 20px; display: inline-block;">Solicite uma consultoria agora mesmo!</a>
+        </section>
+        <section class="services">
+            <!DOCTYPE html>
+            <html lang="pt-BR">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Agência Digital Up Br</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        text-align: center;
+                        margin: 0;
+                        padding: 0;
+                        background-color: #f4f4f4;
+                    }
+                    .hero, .about, .services, .contact {
+                        padding: 20px;
+                        background-color: white;
+                        margin: 20px auto;
+                        max-width: 800px;
+                        border-radius: 10px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    }
+                    ul {
+                        list-style: none;
+                        padding: 0;
+                    }
+                    li {
+                        margin: 10px 0;
+                    }
+                    .contact-form {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    .contact-form input, .contact-form textarea {
+                        width: 80%;
+                        padding: 10px;
+                        margin: 5px 0;
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                    }
+                    .contact-form button {
+                        background-color: #28a745;
+                        color: white;
+                        padding: 10px 20px;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                </style>
+            </head>
+            <body>
+                <main>
+                
+                    <section class="about">
+                        <h1 style="font-size: 36px;">Sobre Nós:</h1>  
+                        <br>
+                        <h3>Somos uma agência especializada em desenvolvimento front-end e back-end, focada na criação de aplicativos Android e iOS, além de sites responsivos com as mais avançadas tecnologias na programação developer.</h3>
+                    </section>
+            
+                    <section class="services">
+                        <h1 style="font-size: 36px;">Serviços:</h1> <br>
+                        <h3 >
+                        <ul>
+                            <li>Desenvolvimento de aplicações web completas (front-end e back-end)</li>
+                            <li>Criação de APIs RESTful e GraphQL</li>
+                            <li>Integração de sistemas e banco de dados (SQL e NoSQL)</li>
+                            <li>Desenvolvimento de sites responsivos</li>
+                            <li>Desenvolvimento de aplicativos móveis</li>
+                            <li>Implementação de sistemas de autenticação e autorização de usuários</li>
+                            <li>Automação de testes e deploy contínuo (CI/CD)</li>
+                            <li>Manutenção e atualização de sistemas existentes</li>
+                            <li>Consultoria e suporte técnico personalizados para empresas locais</li>
+                        </ul>
+                    </h3>
+                    </section>
+            <section class="contact" style="font-size: 36px;">
+                        <h1>Entre em Contato:</h1>
+                        <form class="contact-form">
+                            <input type="text" placeholder="Seu Nome" required>
+                            <input type="email" placeholder="Seu E-mail" required>
+                            <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </section>
+                </main>
+            </body>
+            </html>
+            <footer>
+                <p>&copy; 2025 Digital Up Br. Todos os direitos reservados.</p>
+            </footer>
+        
+            <a href="https://wa.me/21981899447" target="_blank" style="position: fixed; bottom: 20px; right: 20px; background-color: #25D366; color: white; padding: 10px 15px; border-radius: 50px; text-decoration: none; font-weight: bold; display: flex; align-items: center; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 30px; margin-right: 10px;">
+                Contato Digital Up Br
+            </a>
+            
+        
+        </body>
+        </html>

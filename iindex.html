@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Up Br - Gestão de Tráfego Pago & Developer</title>
+  <meta name="description" content="Agência Digital Up Br: Desenvolvimento Web, Tráfego Pago, Criação de Sites, Aplicativos e Consultoria para Empresas.">
+  <meta name="keywords" content="tráfego pago, gestor de tráfego, developer, desenvolvimento web, criação de sites, consultoria digital, marketing digital, front-end, back-end">
+  <meta name="author" content="Digital Up Br">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f3f3f3;
+      color: #333;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    header {
+      background-color: #222;
+      padding: 18px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 70px 20px 50px;
+      background: linear-gradient(to right, #00c851, #009640);
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #e6e6e6;
+    }
+
+    .cta {
+      background-color: white;
+      color: #00c851;
+      padding: 16px 30px;
+      display: inline-block;
+      border-radius: 8px;
+      margin-top: 30px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .cta:hover {
+      background-color: #f1f1f1;
+      color: #009640;
+    }
+
+    .section {
+      background: white;
+      margin: 40px auto;
+      padding: 50px 40px;
+      max-width: 1200px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 0 12px rgba(0,0,0,0.05);
+    }
+
+    .section h2 {
+      font-size: 30px;
+      margin-bottom: 25px;
+      color: #111;
+    }
+
+    .section p, .section li {
+      font-size: 18px;
+      margin: 10px 0;
+      color: #444;
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 14px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    form button {
+      padding: 15px 30px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 17px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    form button:hover {
+      background-color: #218838;
+    }
+
+    footer {
+      background-color: #2c2c2c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 38px;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+      animation: pulse 2s infinite;
+      z-index: 999;
+      transition: transform 0.3s;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+    }
+
+    .whatsapp-float img {
+      width: 40px;
+      height: 40px;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 30px;
+      }
+
+      nav a {
+        margin: 0 10px;
+        font-size: 14px;
+      }
+
+      .section {
+        margin: 20px 15px;
+        padding: 30px 20px;
+      }
+
+      .hero {
+        padding: 50px 15px 30px;
+      }
+
+      .whatsapp-float {
+        width: 65px;
+        height: 65px;
+      }
+
+      .whatsapp-float img {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Agência Digital Up Br</h1>
+    <p>Impulsione seu negócio com soluções de tráfego pago e desenvolvimento web sob medida</p>
+    <a class="cta" href="#contato">Solicite uma consultoria agora mesmo!</a>
+  </section>
+
+  <section class="section" id="sobre">
+    <h2>Sobre Nós:</h2>
+    <p>Somos uma agência especializada em desenvolvimento front-end e back-end, criação de aplicativos Android/iOS e estratégias de tráfego pago focadas em empresas que querem crescer com tecnologia de ponta.</p>
+  </section>
+
+  <section class="section" id="servicos">
+    <h2>Serviços:</h2>
+    <ul>
+      <li>Desenvolvimento de aplicações web (front-end e back-end)</li> <br>
+      <li>Criação de APIs RESTful e GraphQL</li>
+      <li>Integração com bancos de dados (SQL e NoSQL)</li>
+      <li>Criação de sites responsivos e institucionais</li>
+      <li>Desenvolvimento de aplicativos móveis</li>
+      <li>Gestão de Tráfego Pago no Google Ads, Facebook Ads e Instagram</li>
+      <li>Autenticação de usuários e sistemas seguros</li>
+      <li>Deploy contínuo e manutenção de sistemas</li>
+      <li>Consultoria para pequenas empresas e startups</li>
+    </ul>
+  </section>
+
+  <section class="section" id="contato">
+    <h2>Entre em Contato:</h2>
+    <form action="https://api.whatsapp.com/send" method="get" target="_blank">
+      <input type="hidden" name="phone" value="5521981899447" />
+      <input type="text" placeholder="Seu Nome" required />
+      <input type="email" placeholder="Seu E-mail" required />
+      <textarea placeholder="Sua Mensagem" required rows="5"></textarea>
+      <button type="submit">Enviar pelo WhatsApp</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Digital Up Br. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Botão flutuante de WhatsApp -->
+  <a href="https://api.whatsapp.com/send?phone=5521981899447" class="whatsapp-float" target="_blank" title="Fale com a Agência">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
+  </a>
+
+</body>
+</html>
